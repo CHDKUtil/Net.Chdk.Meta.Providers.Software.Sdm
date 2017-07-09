@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Encoders.Binary.Core", "..\..\..\Net.Chdk.Encoders.Binary.Core\src\Net.Chdk.Encoders.Binary.Core\Net.Chdk.Encoders.Binary.Core.csproj", "{5E2FDEDB-20FA-401D-AD6B-38088BB14D3A}"
 EndProject
@@ -80,6 +80,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Providers.Software.Product", "..\..\..\Net.Chdk.Providers.Software.Product\src\Net.Chdk.Providers.Software.Product\Net.Chdk.Providers.Software.Product.csproj", "{9A43D1D6-288E-443D-85B7-892785E512DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Software.Sdm.Console", "Net.Chdk.Meta.Providers.Software.Sdm.Console.csproj", "{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Json", "..\..\..\Net.Chdk.Meta.Writers.Json\src\Net.Chdk.Meta.Writers.Json\Net.Chdk.Meta.Writers.Json.csproj", "{C2084D1B-1A09-4F87-8179-88D5A47BE24D}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -283,6 +285,10 @@ Global
 		{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
