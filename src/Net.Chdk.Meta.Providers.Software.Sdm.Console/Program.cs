@@ -37,7 +37,7 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
                 .AddProductProvider()
                 .AddHashProvider()
                 .AddBootProviderResolver()
-                .AddSingleton<IBinaryDecoder, BinaryDecoder>()
+                .AddBinaryDecoder()
                 .AddCameraProvider()
                 .AddSourceProvider()
                 .AddSoftwareHashProvider()
