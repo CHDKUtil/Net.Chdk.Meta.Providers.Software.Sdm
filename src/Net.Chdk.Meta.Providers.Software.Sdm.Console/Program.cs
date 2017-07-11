@@ -58,16 +58,16 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
                 .AddJsonSoftwareWriter()
                 .BuildServiceProvider();
 
-            var hash2sw = GetSoftware(serviceProvider, args);
+            var hash2sw = GetSoftware(serviceProvider, args, "SDM");
 
             WriteSoftware(serviceProvider, args.Last(), hash2sw);
         }
 
-        private static Dictionary<string, SoftwareInfo> GetSoftware(IServiceProvider serviceProvider, string[] args)
+        private static Dictionary<string, SoftwareInfo> GetSoftware(IServiceProvider serviceProvider, string[] args, string productName)
         {
             var softwareProvider = serviceProvider.GetService<ISoftwareMetaProvider>();
             return args.Take(args.Length - 1)
-                .SelectMany(softwareProvider.GetSoftware)
+                .SelectMany(p => softwareProvider.GetSoftware(p, productName))
                 .Where(s => s != null)
                 .ToDictionary(s => s.Hash.Values.Values.Single(), s => s);
         }
