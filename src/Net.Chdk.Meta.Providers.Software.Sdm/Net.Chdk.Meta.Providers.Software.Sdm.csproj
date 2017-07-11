@@ -35,6 +35,18 @@
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Net.Chdk.Json, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Json.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Model.Category, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Model.Category.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Model.Category.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Model.Software, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Model.Software.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Model.Software.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
@@ -62,10 +74,6 @@
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Software.Core\src\Net.Chdk.Meta.Providers.Software.Core\Net.Chdk.Meta.Providers.Software.Core.csproj">
       <Project>{3618B309-0690-43DC-9C1E-32DF42D0F43C}</Project>
       <Name>Net.Chdk.Meta.Providers.Software.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Model.Software\src\Net.Chdk.Model.Software\Net.Chdk.Model.Software.csproj">
-      <Project>{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}</Project>
-      <Name>Net.Chdk.Model.Software</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems" Label="Shared" />
