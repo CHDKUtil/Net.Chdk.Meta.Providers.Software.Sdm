@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Encoders.Binary.Core", "..\..\..\Net.Chdk.Encoders.Binary.Core\src\Net.Chdk.Encoders.Binary.Core\Net.Chdk.Encoders.Binary.Core.csproj", "{5E2FDEDB-20FA-401D-AD6B-38088BB14D3A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Encoders.Binary", "..\..\..\Net.Chdk.Encoders.Binary\src\Net.Chdk.Encoders.Binary\Net.Chdk.Encoders.Binary.csproj", "{62DA1E42-36A6-4FA5-8439-6634D47FDBF3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Model.Software", "..\..\..\Net.Chdk.Model.Software\src\Net.Chdk.Model.Software\Net.Chdk.Model.Software.csproj", "{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Software.Core", "..\..\..\Net.Chdk.Meta.Providers.Software.Core\src\Net.Chdk.Meta.Providers.Software.Core\Net.Chdk.Meta.Providers.Software.Core.csproj", "{3618B309-0690-43DC-9C1E-32DF42D0F43C}"
@@ -39,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Providers.Product"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Providers.Software.Sdm", "..\..\..\Net.Chdk.Providers.Software.Sdm\src\Net.Chdk.Providers.Software.Sdm\Net.Chdk.Providers.Software.Sdm.csproj", "{9A246902-B0E4-459F-B4B9-F78A59119AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Writers.Software.Json", "..\..\..\Net.Chdk.Meta.Writers.Software.Json\src\Net.Chdk.Meta.Writers.Software.Json\Net.Chdk.Meta.Writers.Software.Json.csproj", "{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Software.Json", "..\..\..\Net.Chdk.Meta.Writers.Software.Json\src\Net.Chdk.Meta.Writers.Software.Json\Net.Chdk.Meta.Writers.Software.Json.csproj", "{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Core", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Core\Net.Chdk.Core.csproj", "{6C183A9C-30C1-47E5-9016-48890EC8ABA2}"
 EndProject
@@ -98,8 +94,6 @@ Global
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{504544ab-5343-4ae9-9935-7b004bf4ed8b}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{568296bc-d638-4892-b51e-f90deab0c140}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{5a6b4079-63ef-42bc-baf8-f6c3480a4ec6}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{5e2fdedb-20fa-401d-ad6b-38088bb14d3a}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{62da1e42-36a6-4fa5-8439-6634d47fdbf3}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{66b0906b-ff63-4cfc-8ea7-a472333aecb1}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{6c183a9c-30c1-47e5-9016-48890ec8aba2}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{732df01f-2379-4244-aba1-48ba99ea1883}*SharedItemsImports = 4
@@ -129,14 +123,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E2FDEDB-20FA-401D-AD6B-38088BB14D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E2FDEDB-20FA-401D-AD6B-38088BB14D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E2FDEDB-20FA-401D-AD6B-38088BB14D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E2FDEDB-20FA-401D-AD6B-38088BB14D3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62DA1E42-36A6-4FA5-8439-6634D47FDBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62DA1E42-36A6-4FA5-8439-6634D47FDBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62DA1E42-36A6-4FA5-8439-6634D47FDBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62DA1E42-36A6-4FA5-8439-6634D47FDBF3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F492AD5-C9E5-4E13-9587-D0B88BA8D209}.Release|Any CPU.ActiveCfg = Release|Any CPU

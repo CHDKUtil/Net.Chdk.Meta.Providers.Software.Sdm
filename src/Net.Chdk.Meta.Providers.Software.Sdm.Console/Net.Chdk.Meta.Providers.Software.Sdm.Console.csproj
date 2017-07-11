@@ -61,6 +61,12 @@
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
     </Reference>
+    <Reference Include="Net.Chdk.Encoders.Binary, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Encoders.Binary.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Encoders.Binary.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Encoders.Binary.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Encoders.Binary.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Encoders.Binary.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Net.Chdk.Meta.Writers.Software.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Net.Chdk.Meta.Writers.Software.Core\src\Net.Chdk.Meta.Writers.Software.Core\bin\Debug\Net.Chdk.Meta.Writers.Software.Core.dll</HintPath>
@@ -162,14 +168,6 @@
     <ProjectReference Include="..\..\..\Net.Chdk.Detectors.Software\src\Net.Chdk.Detectors.Software\Net.Chdk.Detectors.Software.csproj">
       <Project>{88466bba-b210-4479-b577-4651fb2e5918}</Project>
       <Name>Net.Chdk.Detectors.Software</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Encoders.Binary.Core\src\Net.Chdk.Encoders.Binary.Core\Net.Chdk.Encoders.Binary.Core.csproj">
-      <Project>{5E2FDEDB-20FA-401D-AD6B-38088BB14D3A}</Project>
-      <Name>Net.Chdk.Encoders.Binary.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Encoders.Binary\src\Net.Chdk.Encoders.Binary\Net.Chdk.Encoders.Binary.csproj">
-      <Project>{62da1e42-36a6-4fa5-8439-6634d47fdbf3}</Project>
-      <Name>Net.Chdk.Encoders.Binary</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Sdm\src\Net.Chdk.Meta.Providers.Sdm\Net.Chdk.Meta.Providers.Sdm.csproj">
       <Project>{c4df55c8-2908-434c-ae0a-10ba8aebeb16}</Project>
