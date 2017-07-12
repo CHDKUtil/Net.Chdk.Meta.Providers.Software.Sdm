@@ -36,7 +36,7 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
                 .AddCategoryProvider()
                 .AddProductProvider()
                 .AddHashProvider()
-                .AddBootProviderResolver()
+                .AddBootProvider()
                 .AddBinaryDecoder()
                 .AddCameraProvider()
                 .AddSourceProvider()
@@ -47,7 +47,6 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
                 .AddSdmAdHocSoftwareDetector()
                 .AddSdmSourceProvider()
                 .AddCategoryMetaProvider()
-                .AddBootMetaProvider()
                 .AddSourceMetaProvider()
                 .AddBuildMetaProvider()
                 .AddCompilerMetaProvider()
@@ -58,16 +57,16 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
                 .AddJsonSoftwareWriter()
                 .BuildServiceProvider();
 
-            var hash2sw = GetSoftware(serviceProvider, args, "SDM");
+            var hash2sw = GetSoftware(serviceProvider, args, "PS");
 
             WriteSoftware(serviceProvider, args.Last(), hash2sw);
         }
 
-        private static Dictionary<string, SoftwareInfo> GetSoftware(IServiceProvider serviceProvider, string[] args, string productName)
+        private static Dictionary<string, SoftwareInfo> GetSoftware(IServiceProvider serviceProvider, string[] args, string categoryName)
         {
             var softwareProvider = serviceProvider.GetService<ISoftwareMetaProvider>();
             return args.Take(args.Length - 1)
-                .SelectMany(p => softwareProvider.GetSoftware(p, productName))
+                .SelectMany(p => softwareProvider.GetSoftware(p, categoryName))
                 .Where(s => s != null)
                 .ToDictionary(s => s.Hash.Values.Values.Single(), s => s);
         }
