@@ -9,6 +9,7 @@ using Net.Chdk.Meta.Writers.Software;
 using Net.Chdk.Meta.Writers.Software.Json;
 using Net.Chdk.Model.Software;
 using Net.Chdk.Providers.Boot;
+using Net.Chdk.Providers.Camera;
 using Net.Chdk.Providers.Category;
 using Net.Chdk.Providers.Crypto;
 using Net.Chdk.Providers.Product;
