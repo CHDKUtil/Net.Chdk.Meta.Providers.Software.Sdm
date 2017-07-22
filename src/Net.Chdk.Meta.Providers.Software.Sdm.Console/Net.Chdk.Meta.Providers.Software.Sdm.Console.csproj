@@ -46,11 +46,35 @@
     <Reference Include="Chimp.Logging.Extensions, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Chimp.Logging.Extensions.0.3.0-alpha\lib\netstandard1.1\Chimp.Logging.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Configuration.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Configuration.Abstractions.1.1.2\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Configuration.Binder.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Configuration.FileExtensions.1.1.2\lib\net451\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Configuration.Json.1.1.2\lib\net451\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Extensions.DependencyInjection.1.1.1\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.FileProviders.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.FileProviders.Physical.1.1.1\lib\net451\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.FileSystemGlobbing.1.1.1\lib\net45\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Extensions.Logging.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
@@ -58,11 +82,35 @@
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Options.1.1.2\lib\netstandard1.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options.ConfigurationExtensions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Options.ConfigurationExtensions.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Extensions.Primitives.1.1.1\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Core.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Core.dll</HintPath>
+    <Reference Include="Net.Chdk.Core, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Core.0.3.0-alpha\lib\netstandard1.0\Net.Chdk.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Detectors.Base, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Detectors.Base.0.1.0-alpha\lib\netstandard1.3\Net.Chdk.Detectors.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Detectors.Software, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Detectors.Software.0.2.0-alpha\lib\netstandard1.3\Net.Chdk.Detectors.Software.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Detectors.Software.Core, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Detectors.Software.Core.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Detectors.Software.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Detectors.Software.Product, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Detectors.Software.Product.0.4.0-alpha\lib\netstandard1.3\Net.Chdk.Detectors.Software.Product.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Detectors.Software.Sdm, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Detectors.Software.Sdm.0.4.0-alpha\lib\netstandard1.3\Net.Chdk.Detectors.Software.Sdm.dll</HintPath>
     </Reference>
     <Reference Include="Net.Chdk.Encoders.Binary, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Encoders.Binary.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Encoders.Binary.dll</HintPath>
@@ -73,9 +121,50 @@
     <Reference Include="Net.Chdk.Json, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Json.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Meta.Writers.Software.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Net.Chdk.Meta.Writers.Software.Core\src\Net.Chdk.Meta.Writers.Software.Core\bin\Debug\Net.Chdk.Meta.Writers.Software.Core.dll</HintPath>
+    <Reference Include="Net.Chdk.Meta.Model.Camera, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Model.Camera.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Model.Camera.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Model.Camera.Eos, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Model.Camera.Eos.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Model.Camera.Eos.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Model.Camera.Ps, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Model.Camera.Ps.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Model.Camera.Ps.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.0.3.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Base, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Base.0.3.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Providers.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Core, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Core.0.3.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Providers.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Sdm, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Sdm.0.3.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Providers.Sdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Software, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Software.0.3.0-alpha\lib\netstandard1.3\Net.Chdk.Meta.Providers.Software.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Software.Core, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Software.Core.0.3.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Providers.Software.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Software.Sdm, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Software.Sdm.0.3.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Providers.Software.Sdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Software.Zip, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Software.Zip.0.3.0-alpha\lib\netstandard1.3\Net.Chdk.Meta.Providers.Software.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Providers.Zip, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Providers.Zip.0.3.0-alpha\lib\netstandard1.3\Net.Chdk.Meta.Providers.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Writers.Json, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Writers.Json.0.1.0-alpha\lib\netstandard1.3\Net.Chdk.Meta.Writers.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Writers.Software.Core, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Writers.Software.Core.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Writers.Software.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Meta.Writers.Software.Json, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Meta.Writers.Software.Json.0.2.0-alpha\lib\netstandard1.3\Net.Chdk.Meta.Writers.Software.Json.dll</HintPath>
     </Reference>
     <Reference Include="Net.Chdk.Model.Camera, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Model.Camera.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Model.Camera.dll</HintPath>
@@ -83,29 +172,29 @@
     <Reference Include="Net.Chdk.Model.CameraModel, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Model.CameraModel.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Model.CameraModel.dll</HintPath>
     </Reference>
+    <Reference Include="Net.Chdk.Model.Card, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Model.Card.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Model.Card.dll</HintPath>
+    </Reference>
     <Reference Include="Net.Chdk.Model.Category, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Model.Category.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Model.Category.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Model.Software, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Model.Software.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Model.Software.dll</HintPath>
+    <Reference Include="Net.Chdk.Model.Software, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Model.Software.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Model.Software.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Base, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Base.0.1.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Base.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Base, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Base.0.2.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Boot, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Boot.0.1.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Boot.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Boot, Version=0.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Boot.0.3.1-alpha\lib\netstandard1.3\Net.Chdk.Providers.Boot.dll</HintPath>
     </Reference>
     <Reference Include="Net.Chdk.Providers.Boot.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Providers.Boot.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Boot.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Camera, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.0.2.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Camera.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Camera, Version=0.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.0.4.1-alpha\lib\netstandard1.3\Net.Chdk.Providers.Camera.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Camera.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.Core.0.2.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Camera.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Net.Chdk.Providers.Category, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Category.0.1.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Category.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Camera.Core, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.Core.0.4.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Camera.Core.dll</HintPath>
     </Reference>
     <Reference Include="Net.Chdk.Providers.Category.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Providers.Category.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Category.Core.dll</HintPath>
@@ -116,32 +205,45 @@
     <Reference Include="Net.Chdk.Providers.Crypto.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Providers.Crypto.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Crypto.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Product, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Product.0.1.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Product.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Product, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Product.0.4.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Product.dll</HintPath>
     </Reference>
     <Reference Include="Net.Chdk.Providers.Product.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Providers.Product.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Product.Core.dll</HintPath>
     </Reference>
     <Reference Include="Net.Chdk.Providers.Software, Version=0.3.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.0.3.1-alpha\lib\netstandard1.3\Net.Chdk.Providers.Software.dll</HintPath>
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.0.3.2-alpha\lib\netstandard1.3\Net.Chdk.Providers.Software.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Software.Core, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.Core.0.3.1-alpha\lib\netstandard1.0\Net.Chdk.Providers.Software.Core.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Software.Core, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.Core.0.4.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Software.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Software.Product, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.Product.0.3.1-alpha\lib\netstandard1.3\Net.Chdk.Providers.Software.Product.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Software.Product, Version=0.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.Product.0.4.2-alpha\lib\netstandard1.3\Net.Chdk.Providers.Software.Product.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Software.Sdm, Version=0.3.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.Sdm.0.3.1-alpha\lib\netstandard1.3\Net.Chdk.Providers.Software.Sdm.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Software.Sdm, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Software.Sdm.0.4.1-alpha\lib\netstandard1.3\Net.Chdk.Providers.Software.Sdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Net.Chdk.Validators.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Validators.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Validators.Core.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib.NETStandard, Version=0.86.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\SharpZipLib.NETStandard.0.86.0.1\lib\netstandard1.3\SharpZipLib.NETStandard.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\System.AppContext.4.3.0\lib\net46\System.AppContext.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.ComponentModel.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.ComponentModel.Primitives.4.3.0\lib\net45\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.ComponentModel.TypeConverter.4.3.0\lib\net45\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
     <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
     </Reference>
@@ -172,6 +274,9 @@
       <HintPath>..\..\..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.Runtime.CompilerServices.Unsafe.4.3.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
     </Reference>
@@ -186,6 +291,9 @@
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net46\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.Threading.Thread.4.3.0\lib\net46\System.Threading.Thread.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -202,7 +310,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Data\categories.json">
+    <None Include="Data\appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Data\Category\PS\boot.json">
@@ -221,44 +329,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Net.Chdk.Detectors.Software.Binary\src\Net.Chdk.Detectors.Software.Binary\Net.Chdk.Detectors.Software.Binary.csproj">
-      <Project>{18181475-991a-41f3-9bbe-f0f0916d8814}</Project>
-      <Name>Net.Chdk.Detectors.Software.Binary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Detectors.Software.Sdm\src\Net.Chdk.Detectors.Software.Sdm\Net.Chdk.Detectors.Software.Sdm.csproj">
-      <Project>{504544ab-5343-4ae9-9935-7b004bf4ed8b}</Project>
-      <Name>Net.Chdk.Detectors.Software.Sdm</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Detectors.Software\src\Net.Chdk.Detectors.Software\Net.Chdk.Detectors.Software.csproj">
-      <Project>{88466bba-b210-4479-b577-4651fb2e5918}</Project>
-      <Name>Net.Chdk.Detectors.Software</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Sdm\src\Net.Chdk.Meta.Providers.Sdm\Net.Chdk.Meta.Providers.Sdm.csproj">
-      <Project>{c4df55c8-2908-434c-ae0a-10ba8aebeb16}</Project>
-      <Name>Net.Chdk.Meta.Providers.Sdm</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Software.Core\src\Net.Chdk.Meta.Providers.Software.Core\Net.Chdk.Meta.Providers.Software.Core.csproj">
-      <Project>{3618b309-0690-43dc-9c1e-32df42d0f43c}</Project>
-      <Name>Net.Chdk.Meta.Providers.Software.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Software.Zip\src\Net.Chdk.Meta.Providers.Software.Zip\Net.Chdk.Meta.Providers.Software.Zip.csproj">
-      <Project>{ff9fd5ed-69a3-4081-94f4-458b44c9b3ce}</Project>
-      <Name>Net.Chdk.Meta.Providers.Software.Zip</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Software\src\Net.Chdk.Meta.Providers.Software\Net.Chdk.Meta.Providers.Software.csproj">
-      <Project>{9d05a3a1-4bfb-48a0-ba1e-421324dd8b6e}</Project>
-      <Name>Net.Chdk.Meta.Providers.Software</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Writers.Software.Json\src\Net.Chdk.Meta.Writers.Software.Json\Net.Chdk.Meta.Writers.Software.Json.csproj">
-      <Project>{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}</Project>
-      <Name>Net.Chdk.Meta.Writers.Software.Json</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Net.Chdk.Meta.Providers.Software.Sdm\Net.Chdk.Meta.Providers.Software.Sdm.csproj">
-      <Project>{8ce1c291-0299-432b-b697-1276c2ef1d6b}</Project>
-      <Name>Net.Chdk.Meta.Providers.Software.Sdm</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

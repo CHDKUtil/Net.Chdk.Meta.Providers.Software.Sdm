@@ -1,4 +1,5 @@
 ﻿using Chimp.Logging.Extensions;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Net.Chdk.Detectors.Software;
 using Net.Chdk.Detectors.Software.Sdm;
@@ -10,18 +11,18 @@ using Net.Chdk.Meta.Writers.Software.Json;
 using Net.Chdk.Model.Software;
 using Net.Chdk.Providers.Boot;
 using Net.Chdk.Providers.Camera;
-using Net.Chdk.Providers.Category;
 using Net.Chdk.Providers.Crypto;
 using Net.Chdk.Providers.Product;
 using Net.Chdk.Providers.Software;
 using Net.Chdk.Providers.Software.Sdm;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace Net.Chdk.Meta.Providers.Software.Sdm
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -32,9 +33,9 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
             }
 
             var serviceProvider = new ServiceCollection()
+                .ConfigureOptions()
                 .AddLogging()
                 .AddChimpLogging()
-                .AddCategoryProvider()
                 .AddProductProvider()
                 .AddHashProvider()
                 .AddBootProvider()
@@ -52,22 +53,36 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
                 .AddBuildMetaProvider()
                 .AddCompilerMetaProvider()
                 .AddEncodingMetaProvider()
+                .AddCameraMetaProvider()
                 .AddSdmCameraMetaProvider()
                 .AddSdmProductMetaProvider()
                 .AddZipSoftwareMetaProvider()
                 .AddJsonSoftwareWriter()
                 .BuildServiceProvider();
 
-            var hash2sw = GetSoftware(serviceProvider, args, "PS");
+            var hash2sw = GetSoftware(serviceProvider, args, "SDM");
 
             WriteSoftware(serviceProvider, args.Last(), hash2sw);
         }
 
-        private static Dictionary<string, SoftwareInfo> GetSoftware(IServiceProvider serviceProvider, string[] args, string categoryName)
+        private static IServiceCollection ConfigureOptions(this IServiceCollection serviceCollection)
+        {
+            var basePath = Path.Combine(Directory.GetCurrentDirectory(), Directories.Data);
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(basePath)
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            return serviceCollection
+                .AddOptions()
+                .Configure<SoftwareDetectorSettings>(configuration.GetSection("softwareDetector"));
+        }
+
+        private static Dictionary<string, SoftwareInfo> GetSoftware(IServiceProvider serviceProvider, string[] args, string productName)
         {
             var softwareProvider = serviceProvider.GetService<ISoftwareMetaProvider>();
             return args.Take(args.Length - 1)
-                .SelectMany(p => softwareProvider.GetSoftware(p, categoryName))
+                .SelectMany(p => softwareProvider.GetSoftware(p, productName))
                 .Where(s => s != null)
                 .ToDictionary(s => s.Hash.Values.Values.Single(), s => s);
         }

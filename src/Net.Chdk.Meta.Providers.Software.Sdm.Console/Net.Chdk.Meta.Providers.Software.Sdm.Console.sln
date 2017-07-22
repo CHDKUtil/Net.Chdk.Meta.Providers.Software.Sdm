@@ -3,124 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Software.Core", "..\..\..\Net.Chdk.Meta.Providers.Software.Core\src\Net.Chdk.Meta.Providers.Software.Core\Net.Chdk.Meta.Providers.Software.Core.csproj", "{3618B309-0690-43DC-9C1E-32DF42D0F43C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Detectors.Software.Sdm", "..\..\..\Net.Chdk.Detectors.Software.Sdm\src\Net.Chdk.Detectors.Software.Sdm\Net.Chdk.Detectors.Software.Sdm.csproj", "{504544AB-5343-4AE9-9935-7B004BF4ED8B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Detectors.Software.Binary", "..\..\..\Net.Chdk.Detectors.Software.Binary\src\Net.Chdk.Detectors.Software.Binary\Net.Chdk.Detectors.Software.Binary.csproj", "{18181475-991A-41F3-9BBE-F0F0916D8814}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Detectors.Software", "..\..\..\Net.Chdk.Detectors.Software\src\Net.Chdk.Detectors.Software\Net.Chdk.Detectors.Software.csproj", "{88466BBA-B210-4479-B577-4651FB2E5918}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Software", "..\..\..\Net.Chdk.Meta.Providers.Software\src\Net.Chdk.Meta.Providers.Software\Net.Chdk.Meta.Providers.Software.csproj", "{9D05A3A1-4BFB-48A0-BA1E-421324DD8B6E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Software.Sdm", "..\Net.Chdk.Meta.Providers.Software.Sdm\Net.Chdk.Meta.Providers.Software.Sdm.csproj", "{8CE1C291-0299-432B-B697-1276C2EF1D6B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Software.Zip", "..\..\..\Net.Chdk.Meta.Providers.Software.Zip\src\Net.Chdk.Meta.Providers.Software.Zip\Net.Chdk.Meta.Providers.Software.Zip.csproj", "{FF9FD5ED-69A3-4081-94F4-458B44C9B3CE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Sdm", "..\..\..\Net.Chdk.Meta.Providers.Sdm\src\Net.Chdk.Meta.Providers.Sdm\Net.Chdk.Meta.Providers.Sdm.csproj", "{C4DF55C8-2908-434C-AE0A-10BA8AEBEB16}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Software.Json", "..\..\..\Net.Chdk.Meta.Writers.Software.Json\src\Net.Chdk.Meta.Writers.Software.Json\Net.Chdk.Meta.Writers.Software.Json.csproj", "{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Detectors.Core", "..\..\..\Net.Chdk.Detectors.Core\src\Net.Chdk.Detectors.Core\Net.Chdk.Detectors.Core.csproj", "{B5899F00-8BD7-4776-A677-86177A796146}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Detectors.Software.Core", "..\..\..\Net.Chdk.Detectors.Software.Core\src\Net.Chdk.Detectors.Software.Core\Net.Chdk.Detectors.Software.Core.csproj", "{D385AB93-0DB5-45AA-994A-5E4B671BEF40}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Writers.Software.Core", "..\..\..\Net.Chdk.Meta.Writers.Software.Core\src\Net.Chdk.Meta.Writers.Software.Core\Net.Chdk.Meta.Writers.Software.Core.csproj", "{F0776344-0E4A-4254-BB88-F84529B1DC29}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Zip", "..\..\..\Net.Chdk.Meta.Providers.Zip\src\Net.Chdk.Meta.Providers.Zip\Net.Chdk.Meta.Providers.Zip.csproj", "{E25D4E5A-692E-4CDE-A1B4-3FB121AB67FE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Software.Sdm.Console", "Net.Chdk.Meta.Providers.Software.Sdm.Console.csproj", "{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Json", "..\..\..\Net.Chdk.Meta.Writers.Json\src\Net.Chdk.Meta.Writers.Json\Net.Chdk.Meta.Writers.Json.csproj", "{C2084D1B-1A09-4F87-8179-88D5A47BE24D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Core", "..\..\..\Net.Chdk.Meta.Providers.Core\src\Net.Chdk.Meta.Providers.Core\Net.Chdk.Meta.Providers.Core.csproj", "{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{18181475-991a-41f3-9bbe-f0f0916d8814}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{3618b309-0690-43dc-9c1e-32df42d0f43c}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{48963b4a-7fba-4653-8a37-deb1d6cf1760}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{504544ab-5343-4ae9-9935-7b004bf4ed8b}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{88466bba-b210-4479-b577-4651fb2e5918}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{8ce1c291-0299-432b-b697-1276c2ef1d6b}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{9d05a3a1-4bfb-48a0-ba1e-421324dd8b6e}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{a336d62c-4caf-4b19-9602-8ce0e51b4eb4}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{b5899f00-8bd7-4776-a677-86177a796146}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{c4df55c8-2908-434c-ae0a-10ba8aebeb16}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{d385ab93-0db5-45aa-994a-5e4b671bef40}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{e25d4e5a-692e-4cde-a1b4-3fb121ab67fe}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{f0776344-0e4a-4254-bb88-f84529b1dc29}*SharedItemsImports = 4
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{ff9fd5ed-69a3-4081-94f4-458b44c9b3ce}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3618B309-0690-43DC-9C1E-32DF42D0F43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3618B309-0690-43DC-9C1E-32DF42D0F43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3618B309-0690-43DC-9C1E-32DF42D0F43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3618B309-0690-43DC-9C1E-32DF42D0F43C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{504544AB-5343-4AE9-9935-7B004BF4ED8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{504544AB-5343-4AE9-9935-7B004BF4ED8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{504544AB-5343-4AE9-9935-7B004BF4ED8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{504544AB-5343-4AE9-9935-7B004BF4ED8B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18181475-991A-41F3-9BBE-F0F0916D8814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18181475-991A-41F3-9BBE-F0F0916D8814}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18181475-991A-41F3-9BBE-F0F0916D8814}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18181475-991A-41F3-9BBE-F0F0916D8814}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88466BBA-B210-4479-B577-4651FB2E5918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88466BBA-B210-4479-B577-4651FB2E5918}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88466BBA-B210-4479-B577-4651FB2E5918}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88466BBA-B210-4479-B577-4651FB2E5918}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D05A3A1-4BFB-48A0-BA1E-421324DD8B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D05A3A1-4BFB-48A0-BA1E-421324DD8B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D05A3A1-4BFB-48A0-BA1E-421324DD8B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D05A3A1-4BFB-48A0-BA1E-421324DD8B6E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CE1C291-0299-432B-B697-1276C2EF1D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CE1C291-0299-432B-B697-1276C2EF1D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CE1C291-0299-432B-B697-1276C2EF1D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CE1C291-0299-432B-B697-1276C2EF1D6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF9FD5ED-69A3-4081-94F4-458B44C9B3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF9FD5ED-69A3-4081-94F4-458B44C9B3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF9FD5ED-69A3-4081-94F4-458B44C9B3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF9FD5ED-69A3-4081-94F4-458B44C9B3CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4DF55C8-2908-434C-AE0A-10BA8AEBEB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4DF55C8-2908-434C-AE0A-10BA8AEBEB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4DF55C8-2908-434C-AE0A-10BA8AEBEB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4DF55C8-2908-434C-AE0A-10BA8AEBEB16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48963B4A-7FBA-4653-8A37-DEB1D6CF1760}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5899F00-8BD7-4776-A677-86177A796146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5899F00-8BD7-4776-A677-86177A796146}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5899F00-8BD7-4776-A677-86177A796146}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5899F00-8BD7-4776-A677-86177A796146}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D385AB93-0DB5-45AA-994A-5E4B671BEF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D385AB93-0DB5-45AA-994A-5E4B671BEF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D385AB93-0DB5-45AA-994A-5E4B671BEF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D385AB93-0DB5-45AA-994A-5E4B671BEF40}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F0776344-0E4A-4254-BB88-F84529B1DC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0776344-0E4A-4254-BB88-F84529B1DC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0776344-0E4A-4254-BB88-F84529B1DC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0776344-0E4A-4254-BB88-F84529B1DC29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E25D4E5A-692E-4CDE-A1B4-3FB121AB67FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E25D4E5A-692E-4CDE-A1B4-3FB121AB67FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E25D4E5A-692E-4CDE-A1B4-3FB121AB67FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E25D4E5A-692E-4CDE-A1B4-3FB121AB67FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{432A27EB-DCCD-48DB-A0B4-FF9A5948D6AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2084D1B-1A09-4F87-8179-88D5A47BE24D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
