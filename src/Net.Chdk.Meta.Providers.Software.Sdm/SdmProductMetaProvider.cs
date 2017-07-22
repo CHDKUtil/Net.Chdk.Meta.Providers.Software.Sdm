@@ -7,7 +7,7 @@ namespace Net.Chdk.Meta.Providers.Software.Sdm
 {
     sealed class SdmProductMetaProvider : IProductMetaProvider
     {
-        static readonly CultureInfo Language = CultureInfo.GetCultureInfo("en");
+        private static readonly CultureInfo Language = new CultureInfo("en");
 
         public SoftwareProductInfo GetProduct(string name, DateTime created)
         {
