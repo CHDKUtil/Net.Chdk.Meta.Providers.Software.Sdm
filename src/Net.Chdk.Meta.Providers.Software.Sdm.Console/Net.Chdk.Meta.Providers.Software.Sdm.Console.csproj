@@ -190,11 +190,11 @@
     <Reference Include="Net.Chdk.Providers.Boot.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Providers.Boot.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Boot.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Camera, Version=0.4.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.0.4.1-alpha\lib\netstandard1.3\Net.Chdk.Providers.Camera.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Camera, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.0.5.0-alpha\lib\netstandard1.3\Net.Chdk.Providers.Camera.dll</HintPath>
     </Reference>
-    <Reference Include="Net.Chdk.Providers.Camera.Core, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.Core.0.4.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Camera.Core.dll</HintPath>
+    <Reference Include="Net.Chdk.Providers.Camera.Core, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Net.Chdk.Providers.Camera.Core.0.5.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Camera.Core.dll</HintPath>
     </Reference>
     <Reference Include="Net.Chdk.Providers.Category.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Net.Chdk.Providers.Category.Core.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Providers.Category.Core.dll</HintPath>
